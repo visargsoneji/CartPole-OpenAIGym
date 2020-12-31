@@ -10,7 +10,7 @@ For task3 we have changed the model to a larger model with a change in some hype
 --Testing--<br>
 We have created only one notebook for testing all the three tasks.<br>
 Currently Testing.ipynb is ready for task1 and task2.<br>
-To test for task3 just change the second argument to 'model_t3.h5' while calling test(). <br>
+To test for task3 just change the second argument to 'model_t3.h5' while calling test() in Testing.ipynb. <br>
 
 --Versions--<br>
 numpy==1.18.2<br>
