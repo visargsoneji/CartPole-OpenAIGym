@@ -1,18 +1,18 @@
 # CartPole OpenAI Gym
 
---Models--<br>
+## Models
 It contains two models namely 'model_t1t2.h5' for task1 and task2 and other one 'model_t3.h5' for task3.<br>
 
---Training--<br>
+## Training
 The training part is same for task1 and task2 (Training_t1t2.ipynb) which is basically trained on task1 and works good for task2 also.<br>
 For task3 we have changed the model to a larger model with a change in some hyperparameters (Training_t3.ipynb).<br>
 
---Testing--<br>
+## Testing
 We have created only one notebook for testing all the three tasks.<br>
 Currently Testing.ipynb is ready for task1 and task2.<br>
 To test for task3 just change the second argument to 'model_t3.h5' while calling test() in Testing.ipynb. <br>
 
---Versions--<br>
+## Versions
 numpy==1.18.2<br>
 gym==0.17.1<br>
 Keras==2.3.1<br>
